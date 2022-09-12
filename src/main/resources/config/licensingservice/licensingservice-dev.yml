@@ -1,0 +1,7 @@
+env.property: default-dev
+spring.jpa.database: POSTGRESQL
+spring.jpa.show-sql: true
+spring.datasource.driver-class-name: org.postgresql.Driver
+spring.datasource.url: jdbc:postgresql://localhost:5432/microservice
+spring.datasource.username: postgres
+spring.datasource.password: postgres
