@@ -1,9 +1,3 @@
-#spring.cloud.config.server.git.uri=https://github.com/javatechnology4/ConfigServer
-##spring.cloud.config.server.git.search-paths=licensingservice,organizationservice
-#spring.profiles.active=default
-##encrypt.key=my-key
-#spring.cloud.config.server.encrypt.enabled=true
-#spring.cloud.config.server.git.default-label=main
 server:
   port: 8888
 spring:
@@ -15,6 +9,5 @@ spring:
         git:
           uri: https://github.com/onlinejavafullstacktraining/ConfigServer
           default-label: main
-
         encrypt:
           enabled: true
