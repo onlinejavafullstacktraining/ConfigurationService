@@ -68,7 +68,7 @@
                         <phase>install</phase>
                         <goals>
                             <goal>build</goal>
-                            <goal>push</goal>
+                            <!--<goal>push</goal>-->
                         </goals>
                     </execution>
                 </executions>
@@ -78,7 +78,6 @@
                     <buildArgs>
                         <JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
                     </buildArgs>
-
                 </configuration>
             </plugin>
         </plugins>
